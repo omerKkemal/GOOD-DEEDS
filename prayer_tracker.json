@@ -19,6 +19,16 @@
       "current_day": 0,
       "completed": false,
       "daily_tasks": []
+    },
+    {
+      "id": 3,
+      "qada_type": "صلاة",
+      "amount": 3,
+      "unit": "يوم",
+      "total_days": 3,
+      "current_day": 0,
+      "completed": false,
+      "daily_tasks": []
     }
   ]
 }
