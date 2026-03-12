@@ -1,0 +1,24 @@
+{
+  "sessions": [
+    {
+      "id": 1,
+      "qada_type": "صلاة",
+      "amount": 3,
+      "unit": "يوم",
+      "total_days": 3,
+      "current_day": 0,
+      "completed": false,
+      "daily_tasks": []
+    },
+    {
+      "id": 2,
+      "qada_type": "صيام",
+      "amount": 7,
+      "unit": "يوم",
+      "total_days": 7,
+      "current_day": 0,
+      "completed": false,
+      "daily_tasks": []
+    }
+  ]
+}
