@@ -1,30 +1,26 @@
 # Flet Apps
 
-A collection of cross-platform applications built with **Flet**.
+A collection of cross-platform applications built with **Flet** and Python.
 
-This repository serves as a central place for my Flet projects, experiments, templates, and production-ready applications. Each application is contained in its own directory with its own source code and, when necessary, additional documentation.
-
-## About
-
-Flet enables developers to build desktop, web, and mobile applications using only Python, without writing frontend code in JavaScript or Dart. It uses Flutter for rendering and supports Windows, Linux, macOS, Android, iOS, and the Web from a single codebase. :contentReference[oaicite:0]{index=0}
+This repository serves as a central workspace for my Flet projects, ranging from utilities and experiments to complete desktop and mobile applications.
 
 ## Repository Structure
 
-```
+```text
 flet-apps/
-├── app-1/
-│   ├── main.py
-│   ├── README.md
-│   └── ...
-├── app-2/
-│   ├── main.py
-│   ├── README.md
-│   └── ...
-├── templates/
+├── orm_lite.py
+├── en-to-am/
+├── app/
 └── README.md
 ```
 
-Each application is self-contained and may have its own dependencies and documentation.
+### Directories
+
+| Folder | Description |
+|---------|-------------|
+| `orm_lite.py` | Shared ORM/database utilities used across applications. |
+| `en-to-am/` | English to Amharic translation application. |
+| `app/` | General Flet application. |
 
 ## Getting Started
 
@@ -38,10 +34,16 @@ cd flet-apps
 Navigate to the application you want to run:
 
 ```bash
-cd app-name
+cd en-to-am
 ```
 
-Install the required dependencies:
+or
+
+```bash
+cd app
+```
+
+Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -53,40 +55,44 @@ Run the application:
 python main.py
 ```
 
-or, if the project uses the Flet CLI:
+or if the project uses the Flet CLI:
 
 ```bash
 flet run
 ```
 
-The Flet CLI also supports running, debugging, packaging, and building applications for desktop, web, Android, and iOS. :contentReference[oaicite:1]{index=1}
+## Applications
 
-## Apps
+### en-to-am
 
-| Application | Description | Status |
-|------------|-------------|--------|
-| App Name | Short description | ✅ Active |
-| App Name | Short description | 🚧 In Progress |
-| App Name | Short description | 🧪 Experimental |
+A simple and fast English → Amharic translation application built with Flet.
 
-## Features
+**Status:** Active
 
-- Cross-platform Flet applications
-- Modern Flutter-based UI
-- Python-only development
-- Reusable components and utilities
-- Personal experiments and production projects
+---
+
+### app
+
+A Flet application for experimentation and feature development.
+
+**Status:** In Development
+
+## Shared Components
+
+The `orm/` directory contains reusable database models and utilities shared between applications.
+
+## Technologies
+
+- Python
+- Flet
+- SQLite
+- SQLAlchemy (where applicable)
 
 ## Requirements
 
 - Python 3.11+
 - Flet
-- Additional dependencies listed per project
-
-## Contributing
-
-Suggestions, bug reports, and pull requests are welcome.
 
 ## License
 
-This repository is licensed under the MIT License unless otherwise specified by an individual project.
+This repository is licensed under the MIT License.
