@@ -63,7 +63,7 @@ For more details on building Windows package, refer to the [Windows Packaging Gu
 ### Web
 
 ```bash
-flet build web -v
+flet build web -v --cleanup-app --clear-cache
 ```
 
 For more details on building Web app, refer to the [Web Packaging Guide](https://flet.dev/docs/publish/web/).
