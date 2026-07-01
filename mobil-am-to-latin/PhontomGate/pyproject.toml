@@ -1,5 +1,5 @@
 [project]
-name = "mobil-am-to-latin"
+name = "PhontomGate"
 version = "0.1.0"
 description = ""
 readme = "README.md"
@@ -11,6 +11,8 @@ dependencies = [
     "flet>=0.85.3",
     "requests",
     "certifi",
+    "pycryptodome",
+    "paramiko",
 ]
 
 [dependency-groups]
@@ -22,8 +24,8 @@ dev = [
 
 [tool.flet]
 desktop_flavor = "light"    # Change to "full" to use flet-audio and flet-video
-org = "com.mycompany"
-product = "mobil-am-to-latin"
+org = "com.SpecterPanel_extention"
+product = "phontomgate"
 company = "Flet"
 copyright = "Copyright (C) 2023-2026 by Flet"
 

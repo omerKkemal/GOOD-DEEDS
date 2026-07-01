@@ -1,4 +1,5 @@
 import flet as ft
+import requests
 
 
 def convert_amharic_to_latin(text: str) -> str:
